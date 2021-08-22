@@ -1,5 +1,5 @@
 from flask_restful import Resource, reqparse
-from api.models.Quote import QuoteModel
+from api.models.quote import QuoteModel
 from api.models.author import AuthorModel
 from api import db
 
